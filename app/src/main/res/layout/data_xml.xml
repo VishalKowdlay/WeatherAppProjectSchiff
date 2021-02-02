@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/horLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/weatherPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/townName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name of Town"
+            android:textColor="#E91E58"
+            android:textColorHighlight="#F30D0D" />
+
+        <TextView
+            android:id="@+id/timeData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time of Weather Recording"
+            android:textColor="#9023DD"
+            android:textColorHighlight="#B027AE"
+            android:textColorLink="#9C27B0" />
+
+        <TextView
+            android:id="@+id/temperatureData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature of Weather During Recording"
+            android:textColor="#00AFFF"
+            android:textColorHighlight="#00FFFF" />
+
+        <TextView
+            android:id="@+id/weatherData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Condition of Weather During Recording"
+            android:textColor="#00FFD9"
+            android:textColorHighlight="#00D4AA" />
+
+        <TextView
+            android:id="@+id/weatherDesriptionData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather Condition Description of Recording"
+            android:textColor="#23E627"
+            android:textColorHighlight="#6AFF00" />
+
+    </LinearLayout>
+
+</LinearLayout>
